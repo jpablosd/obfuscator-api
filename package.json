@@ -1,0 +1,21 @@
+{
+  "name": "cl.mop.obfuscator",
+  "version": "1.0.0",
+  "description": "Obfuscator MOP",
+  "main": "obfuscatorMOP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Pablo Soto",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "cross": "^1.0.0",
+    "javascript-obfuscator": "^0.18.1",
+    "multer": "^1.4.1",
+    "restify": "^8.2.0",
+    "restify-options-builder": "^2.2.0",
+    "restify-plugins": "^1.6.0",
+    "swagger-restify": "^1.0.1"
+  }
+}
