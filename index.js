@@ -9,6 +9,7 @@ var path = require('path');
 
 
 
+
 var server = restify.createServer();
 server.use(restify.plugins.bodyParser({
     mapParams: true
@@ -39,7 +40,7 @@ server.post('/uploadfile', (req, resp) => {
 });
 
 
-/* SERVICE OFUSCAR TEXT*/
+/* SERVICE OFUSCAR TEXT REST*/
 server.post('/ofuscarcodigo', (req, res) => {
      try{
        // console.log(req.params.codigo)
